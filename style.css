@@ -56,5 +56,12 @@
     width: 919px;
     height: 1.2px;
     background-color: rgba(238, 238, 238, 0.952);
-    margin-right: -40px;
-}
+    margin-right: -40px;}
+
+@media only screen and (max-width: 460px)
+{  
+    .image {max-width:250px;
+    }
+    .smalldiv {
+        width: 100%
+    } }
